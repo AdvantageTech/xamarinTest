@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarinTest.hostScreen"
+             Title="hostScreen">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="Host"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Sign up to host an #ActionTake event!" HorizontalOptions="CenterAndExpand" VerticalOptions="Start"></Label>
+            <Label Text="After filling out the below form, a member of our team will be in touch" HorizontalOptions="CenterAndExpand" VerticalOptions="Start"></Label>
+            <Label Text="View Host Guide" HorizontalOptions="Center" VerticalOptions="Start"/>
+            <Entry VerticalOptions="Start" HorizontalOptions="Fill"  Placeholder="NAME"></Entry>
+            <Entry VerticalOptions="Start" HorizontalOptions="Fill" Placeholder="EMAIL"></Entry>
+            <Entry VerticalOptions="Start" HorizontalOptions="Fill" Placeholder="PROPOSED DATE"></Entry>
+            <Entry VerticalOptions="Start" HorizontalOptions="Fill" Placeholder="PROPOSED TIME"></Entry>
+            <Entry VerticalOptions="Start" HorizontalOptions="Fill" Placeholder="COUNTY"></Entry>
+            <Entry VerticalOptions="Start" HorizontalOptions="Fill" Placeholder="ANYTHING ELSE WE NEED TO KNOW?"></Entry>
+            <Button Text="SUBMIT" VerticalOptions="Start" HorizontalOptions="StartAndExpand"></Button>
+            <Button Text="HOST FAQS" VerticalOptions="Start" HorizontalOptions="Start"></Button>
+            <Button Text="MAIN MENU" VerticalOptions="End" HorizontalOptions="End"></Button>
+
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
